@@ -1,0 +1,76 @@
+body {
+width: 100%;
+height: auto;
+padding: 30px;
+background-color: #ddd;
+
+.logo {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    color: orange;
+    margin-left: 50px;
+}
+
+.about-text {
+    width: 300px;
+    margin-left: 50px;
+}
+
+// .hello {
+//     margin-left: 50px;
+// }
+
+// .paragraph {
+//     margin-left: 50px;
+// }
+
+.project-button {
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+
+.linkdin-button {
+    color: blue;
+    border-color: blue;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.personal-image {
+    object-fit: cover; 
+    object-position: 15% 0;
+    width: 700px;
+    height: 475px;
+    position: absolute;
+    right: 3%;
+}
+.about-page {
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.text-container{
+
+    flex-direction: column;
+}
+.projects-page {
+    height: 100vh;
+    width: 100%;
+    
+    background-color: green;
+}
+
+.contact-page {
+    height: 100vh;
+    width: 100%;
+    
+    background-color: blue;
+}
+
+}
