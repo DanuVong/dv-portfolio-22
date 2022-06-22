@@ -763,7 +763,7 @@ body {
   width: 100%;
   height: auto;
   padding: 30px;
-  background-color: #ddd;
+  background-color: rgb(239, 248, 239);
 }
 body .logo {
   margin-left: 50px;
@@ -791,13 +791,13 @@ body .linkdin-button {
 body .personal-image {
   object-fit: cover;
   object-position: 15% 0;
-  width: 700px;
-  height: 475px;
+  width: 650px;
+  height: 580px;
   position: absolute;
-  right: 3%;
+  right: 2.75%;
 }
 body .about-page {
-  height: 80vh;
+  height: 67.5vh;
   width: 100%;
   background-color: white;
   display: flex;
@@ -805,10 +805,26 @@ body .about-page {
 body .text-container {
   flex-direction: column;
 }
+body .projects-title {
+  text-align: center;
+  color: rgb(196, 242, 105);
+}
 body .projects-page {
   height: 100vh;
   width: 100%;
   background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .projects-container {
+  height: 70vh;
+  width: 50%;
+  background-color: rgb(239, 248, 239);
+  border: 5px solid black;
+  margin: 50px 0;
+  border-radius: 20px;
 }
 body .contact-page {
   height: 100vh;
