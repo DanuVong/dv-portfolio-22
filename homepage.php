@@ -25,24 +25,43 @@
             <img class='personal-image' src='http://portfolio.local/wp-content/uploads/2022/06/Peace-e1655424389773.jpg'>
     </section>
     
-    <h1 class="projects-title">Projects</h1>
+    <h1 class="projects-title"><u>Projects</u></h1>
 
     <section class="projects-page">
      <div class="projects-container">
-        <h2>W4B Final</h2>
-        <p>fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend</p>
+        <div class="project-text">
+            <h2>W4B Final Project</h2>
+            <p>fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend</p>
+            <button class="view-project-button" type="button">View Project</button>
+        </div>
+        <img class="project-image" src='http://portfolio.local/wp-content/uploads/2022/06/autism-scaled.jpg'>
      </div>
 
      <div class="projects-container">
-        <h2>Elk Grove Breweries</h2>
+        <div class="project-text">
+            <h2>Elk Grove Breweries</h2>
+            <p>fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend</p>
+            <button class="view-project-button" type="button">View Project</button>
+        </div>
+        <img class="project-image" src='http://portfolio.local/wp-content/uploads/2022/06/craft-beer-scaled.jpg'>
      </div>
 
      <div class="projects-container">
-        <h2>Space X Clone</h2>
+        <div class="project-text">
+            <h2>Space X Clone</h2>
+            <p>fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend</p>
+            <button class="view-project-button" type="button">View Project</button>
+        </div>
+        <img class="project-image" src='http://portfolio.local/wp-content/uploads/2022/06/rocketship-scaled.jpg'>
      </div>
 
      <div class="projects-container">
-        <h2>Electried</h2>
+        <div class="project-text">   
+            <h2>Electried</h2>
+            <p>fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend</p>
+            <button class="view-project-button" type="button">View Project</button>
+        </div>
+        <img class="project-image" src='http://portfolio.local/wp-content/uploads/2022/06/nissan-leaf-scaled.jpg'>
      </div>
 
      </section>
