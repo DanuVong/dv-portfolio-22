@@ -22,10 +22,12 @@
                 <button class="linkdin-button" type="button">Linkedin</button>
             </div>
         </div>
-            <img class='personal-image' src='http://portfolio.local/wp-content/uploads/2022/06/Peace-e1655424389773.jpg'>
+            <img class='personal-image' src='http://portfolio.local/wp-content/uploads/2022/06/pallisades-2.jpg'>
     </section>
     
-    <h1 class="projects-title"><u>Projects</u></h1>
+    <div class="projects-title-container">
+        <h1 class="projects-title">Projects</h1>
+    </div>
 
     <section class="projects-page">
      <div class="projects-container">
@@ -63,9 +65,19 @@
         </div>
         <img class="project-image" src='http://portfolio.local/wp-content/uploads/2022/06/nissan-leaf-scaled.jpg'>
      </div>
+    </section>
 
-     </section>
-
+    <section class="about-page">
+        <div class="about-section">
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="resume-button" type="button">Resume</button>
+        </div>
+        <!-- <img class="about-image" src='http://portfolio.local/wp-content/uploads/2022/06/pallisades-2.jpg'> 
+    -->
+    <video autoplay="autoplay" id="coverVideo" loop="loop" muted="muted" playsinline="playsinline" poster="https://static.spotapps.co/web/tearexca--com/custom/video_poster.jpg"><source src="http://portfolio.local/wp-content/uploads/2022/06/IMG_9043.MOV.mov" type="video/mp4"></video>
+    </section>
+        
     <section class="contact-page"></section>
 
 </main>

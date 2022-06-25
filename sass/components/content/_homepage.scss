@@ -23,6 +23,7 @@ background-color: rgb(239, 248, 239);
     background-color: orange;
     font-size: 15px;
     font-weight: 500; 
+    margin-bottom: 5px;
 }
 
 .linkdin-button {
@@ -36,7 +37,7 @@ background-color: rgb(239, 248, 239);
     object-fit: cover; 
     object-position: 15% 0;
     width: 650px;
-    height: 554px;
+    height: 580px;
     position: absolute;
     right: 2.75%;
 }
@@ -51,15 +52,21 @@ background-color: rgb(239, 248, 239);
     flex-direction: column;
 }
 
+.projects-title-container {
+    border-bottom: 2px solid orange;
+    
+}
+
 .projects-title {
     text-align: center; 
-    color: orange;
+    color: black;
+    
 }
 
 .projects-page {
     height: auto;
     width: 100%;
-    background-color: green;
+    background-color: rgb(239, 248, 239);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,6 +85,9 @@ background-color: rgb(239, 248, 239);
 
 .project-text {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .view-project-button {
@@ -92,10 +102,38 @@ background-color: rgb(239, 248, 239);
     border-radius: 0 20px 20px 0;
 }
 
+.about-page {
+    position: relative;
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    background: rgba(0,0,0,0.10);
+    // height: 100%;
+}
+
+.about-section {
+    align-items: center;
+    
+    flex-direction: column;
+    text-align: center;
+    // margin-top: 120px;
+    z-index: 2;
+    height: 100%;
+    width: 300px;
+    color: whitesmoke;
+    
+}
+
+#coverVideo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
 .contact-page {
     height: 100vh;
     width: 100%;
-    
     background-color: blue;
 }
 
