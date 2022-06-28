@@ -22,7 +22,10 @@
                 <button class="linkdin-button" type="button">Linkedin</button>
             </div>
         </div>
+
+        <div class="personal-image-containter">
             <img class='personal-image' src='http://portfolio.local/wp-content/uploads/2022/06/pallisades-2.jpg'>
+        </div>
     </section>
     
     <div class="projects-title-container">
@@ -69,8 +72,8 @@
 
     <section class="about-page">
         <div class="about-section">
-            <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 class="about-section-text">About me</h1>
+            <p class="about-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <button class="resume-button" type="button">Resume</button>
         </div>
         <!-- <img class="about-image" src='http://portfolio.local/wp-content/uploads/2022/06/pallisades-2.jpg'> 

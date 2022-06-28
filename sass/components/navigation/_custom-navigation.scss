@@ -1,6 +1,9 @@
 .site-header {
-    position: absolute;
-    top: 65px;
-    padding-right: 121px;
+    position: relative;
+    // z-index: 999;
+    top: 4rem;
+    // left: 0;
+    // top: 65px;
+    // padding-right: 121px;
     background: transparent;
 }
