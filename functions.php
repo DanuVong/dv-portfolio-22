@@ -133,7 +133,21 @@ function dv_portfolio_22_widgets_init() {
 	);
 }
 add_action( 'widgets_init', 'dv_portfolio_22_widgets_init' );
-
+// This is a Spotify Widget
+function dv_portfolio_22_spotify_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'spotify', 'dv-portfolio-22' ),
+			'id'            => 'spotify-1',
+			'description'   => esc_html__( 'Add widgets here.', 'dv-portfolio-22' ),
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2 class="spotify-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+}
+add_action( 'widgets_init', 'dv_portfolio_22_spotify_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */

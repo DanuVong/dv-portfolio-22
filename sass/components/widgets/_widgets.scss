@@ -6,3 +6,10 @@
 		max-width: 100%;
 	}
 }
+
+
+.wp-block-embed__wrapper {
+	& > iframe {
+		width: 80% !important;
+	}
+}

@@ -727,20 +727,74 @@ textarea {
 }
 
 .site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  position: relative;
+}
+.site-header .main-navigation {
+  display: flex;
+  width: auto;
+  justify-content: center;
   position: relative;
   top: 4rem;
-  background: transparent;
+  left: 18rem;
+}
+
+footer {
+  background-image: url("http://portfolio.local/wp-content/uploads/2022/07/Cover-Wave.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 175px;
+  width: 100vw;
+  background-color: aqua;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.social-media i {
+  margin: 0 10px;
+}
+.social-media .fa-instagram {
+  color: yellow;
+}
+.social-media .fa-instagram:hover {
+  color: orange;
+}
+.social-media .fa-linkedin {
+  color: greenyellow;
+}
+.social-media .fa-linkedin:hover {
+  color: orange;
+}
+.social-media .fa-envelope {
+  color: red;
+}
+.social-media .fa-envelope:hover {
+  color: orange;
 }
 
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
   display: block;
-}
-
-.post,
-.page {
-  margin: 0 0 1.5em;
 }
 
 .updated:not(.published) {
@@ -758,15 +812,21 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+.site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   flex-direction: column;
   background-color: rgb(239, 248, 239);
+  overflow-x: hidden;
 }
 body .title {
   color: orange;
@@ -777,7 +837,7 @@ body .project-button {
   font-weight: 500;
   margin-bottom: 5px;
 }
-body .linkdin-button {
+body .linkedin-button {
   color: blue;
   border-color: blue;
   font-size: 15px;
@@ -795,8 +855,8 @@ body .personal-image-containter .personal-image {
   height: auto;
 }
 body .about-page {
-  height: 67.5vh;
   width: 100%;
+  height: 100%;
   background-color: white;
   display: flex;
 }
@@ -805,6 +865,11 @@ body .text-container {
   width: 50%;
   flex-direction: column;
   padding: 20px;
+}
+body .logo {
+  height: 150px;
+  width: 150px;
+  mix-blend-mode: difference;
 }
 body .projects-title-container {
   border-bottom: 2px solid orange;
@@ -845,6 +910,9 @@ body .view-project-button {
   font-weight: 600;
   background-color: rgb(239, 248, 239);
   border: 1px solid black;
+  color: blue;
+  border-color: blue;
+  font-weight: 500;
 }
 body .project-image {
   height: 325px;
@@ -852,39 +920,82 @@ body .project-image {
   border-radius: 0 20px 20px 0;
 }
 body .about-page {
-  position: relative;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .about-section-container {
+  overflow: hidden;
+  height: 100vh;
+  background-image: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+  align-content: center;
+}
+body .about-section-container #coverVideo {
+  bottom: 3rem;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
 body .about-section {
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
   text-align: center;
-  z-index: 2;
-  height: 100%;
-  width: 300px;
+  height: auto;
+  width: auto;
   color: whitesmoke;
+}
+body .about-section .about-me-header {
+  color: orange;
 }
 body .about-section .about-section-text {
   text-shadow: 1px 1px 2px black;
+  line-height: 50px;
+  padding: 0 100px;
+  color: orange;
 }
-body #coverVideo {
-  height: 100%;
+body .about-section .resume-button {
+  color: blue;
+  border-color: blue;
+  font-weight: 500;
+}
+body .about-image {
   width: 100%;
-  position: absolute;
-  z-index: 1;
 }
 body .contact-page {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(239, 248, 239);
+}
+body .contact-page .wpcf7-form {
   width: 100%;
-  background-color: blue;
+  background-color: orange blue;
+  align-content: center;
+}
+body .contact-page .wpcf7-form label {
+  color: black;
+  font-size: larger;
+}
+body .holla {
+  text-align: center;
 }
 
 .main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1000px;
   height: 100%;
@@ -907,6 +1018,10 @@ body .contact-page {
 }
 .widget select {
   max-width: 100%;
+}
+
+.wp-block-embed__wrapper > iframe {
+  width: 80% !important;
 }
 
 /* Media

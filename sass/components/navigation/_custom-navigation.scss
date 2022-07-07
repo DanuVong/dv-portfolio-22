@@ -1,9 +1,18 @@
 .site-header {
-    position: relative;
-    // z-index: 999;
-    top: 4rem;
-    // left: 0;
-    // top: 65px;
-    // padding-right: 121px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;
+    position: relative;
+    
+    .main-navigation {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        position: relative;
+        top: 4rem;
+        left: 18rem;
+    }
+
 }

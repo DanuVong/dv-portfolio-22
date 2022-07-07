@@ -1,0 +1,49 @@
+footer {
+    background-image: url('http://portfolio.local/wp-content/uploads/2022/07/Cover-Wave.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 175px;
+    width: 100vw;
+    background-color: aqua;
+    padding: 0 !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+}
+
+.social-media {
+    display:flex;
+    justify-content: center;
+    i {
+        margin: 0 10px;
+    }
+    .fa-instagram {
+        color: yellow;
+        &:hover {
+            color: orange;
+        }
+
+    }
+    .fa-linkedin {
+        color: greenyellow;
+        &:hover {
+            color: orange;
+        }
+    }
+    .fa-envelope {
+        color: red;
+        &:hover {
+            color: orange;
+        }
+    }
+    
+}
