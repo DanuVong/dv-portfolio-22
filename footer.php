@@ -13,13 +13,16 @@
 
 	<footer id="colophon" class="site-footer">
 	<!-- Build HTML Here	 -->
-	<h5 class="footer-header">Danu Vong 20-Deuces!</h5>
+	
+	<p class="GM">"My webpage is a work in progress, as am I".  - The great George Meadors</p>
 
 		<div class="social-media">
 			<i class="fa-brands fa-instagram fa-2x"></i>
 			<i class="fa-brands fa-linkedin fa-2x"></i>
 			<i class="fa-solid fa-envelope fa-2x"></i>
 		</div>
+
+		<h5 class="footer-header">Danu Vong 20-Deuces!</h5>
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->

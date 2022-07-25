@@ -1,11 +1,11 @@
 footer {
-    background-image: url('http://portfolio.local/wp-content/uploads/2022/07/Cover-Wave.jpg');
+    // background-image: url('http://portfolio.local/wp-content/uploads/2022/07/Cover-Wave.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 175px;
+    height: 118px;
     width: 100vw;
-    background-color: aqua;
+    // background-color: aqua;
     padding: 0 !important;
     display:flex;
     justify-content: center;
@@ -17,7 +17,14 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
-    color: orangered;
+    color: whitesmoke;
+    margin-bottom: 56px;
+    font-size: 16px;
+}
+
+.GM {
+    color:white;
+    font-size: 20px;
 }
 
 .social-media {

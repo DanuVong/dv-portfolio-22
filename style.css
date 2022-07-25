@@ -744,13 +744,11 @@ textarea {
 }
 
 footer {
-  background-image: url("http://portfolio.local/wp-content/uploads/2022/07/Cover-Wave.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 175px;
+  height: 118px;
   width: 100vw;
-  background-color: aqua;
   padding: 0 !important;
   display: flex;
   justify-content: center;
@@ -762,7 +760,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: orangered;
+  color: whitesmoke;
+  margin-bottom: 56px;
+  font-size: 16px;
+}
+
+.GM {
+  color: white;
+  font-size: 20px;
 }
 
 .social-media {
@@ -812,6 +817,10 @@ footer {
   margin: 0 0 1.5em;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .site {
   display: flex;
   flex-direction: column;
@@ -825,14 +834,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(239, 248, 239);
+  background-color: #00DBDE;
+  background-image: linear-gradient(236deg, #00DBDE 0%, #FC00FF 100%);
   overflow-x: hidden;
 }
 body .title {
-  color: orange;
+  color: gold;
+  text-shadow: -1px 1px 2px black;
 }
-body .project-button {
-  background-color: orange;
+body .paragraph {
+  font-size: 18px;
+  font-weight: 600;
+  color: gold;
+  text-shadow: -1px 1px 2px black;
+}
+body .resume-button {
+  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+  color: blue;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -845,7 +863,7 @@ body .linkedin-button {
 }
 body .personal-image-containter {
   width: 650px;
-  height: 580px;
+  height: 835px;
   overflow: hidden;
 }
 body .personal-image-containter .personal-image {
@@ -855,10 +873,11 @@ body .personal-image-containter .personal-image {
   height: auto;
 }
 body .about-page {
-  width: 100%;
+  width: 139%;
   height: 100%;
   background-color: white;
   display: flex;
+  margin-bottom: 63px;
 }
 body .text-container {
   display: flex;
@@ -872,16 +891,17 @@ body .logo {
   mix-blend-mode: difference;
 }
 body .projects-title-container {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid gold;
+  text-shadow: -1px 1px 2px black;
 }
 body .projects-title {
   text-align: center;
-  color: black;
+  color: gold;
+  text-shadow: -1px 1px 2px black;
 }
 body .projects-page {
   height: auto;
   width: 100%;
-  background-color: rgb(239, 248, 239);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -893,7 +913,7 @@ body .projects-container {
   background-color: rgb(239, 248, 239);
   margin: 50px 0;
   border-radius: 20px;
-  box-shadow: 15px 15px gray;
+  box-shadow: 15px 15px rgb(244, 84, 239);
   display: flex;
 }
 body .project-text {
@@ -908,7 +928,7 @@ body .project-text p {
 }
 body .view-project-button {
   font-weight: 600;
-  background-color: rgb(239, 248, 239);
+  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
   border: 1px solid black;
   color: blue;
   border-color: blue;
@@ -937,7 +957,7 @@ body .about-section-container {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background-color: black;
+  background-color: #232528;
   align-content: center;
 }
 body .about-section-container #coverVideo {
@@ -954,15 +974,18 @@ body .about-section {
   color: whitesmoke;
 }
 body .about-section .about-me-header {
-  color: orange;
+  color: aqua;
 }
 body .about-section .about-section-text {
-  text-shadow: 1px 1px 2px black;
   line-height: 50px;
   padding: 0 100px;
-  color: orange;
+  color: white;
+  font-size: 20px;
 }
 body .about-section .resume-button {
+  font-weight: 600;
+  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+  border: 1px solid black;
   color: blue;
   border-color: blue;
   font-weight: 500;
@@ -972,23 +995,43 @@ body .about-image {
 }
 body .contact-page {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(239, 248, 239);
 }
 body .contact-page .wpcf7-form {
   width: 100%;
-  background-color: orange blue;
   align-content: center;
 }
 body .contact-page .wpcf7-form label {
+  font-size: 30px !important;
   color: black;
   font-size: larger;
+  font-weight: 800;
+  text-shadow: -1px 1px 2px aqua;
 }
-body .holla {
+body .contact-page .wpcf7-form input[type=text] {
+  width: 500px;
+  height: 50px;
+}
+body .contact-page .wpcf7-form input[type=email] {
+  width: 500px;
+  height: 50px;
+}
+body .contact-page .wpcf7-form .wpcf7-submit {
+  padding: 10px 20px;
+  border-color: blue;
+  color: blue;
+  font-weight: 600;
+  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+}
+body .connect {
+  font-size: 50px;
   text-align: center;
+  color: aqua;
+  text-shadow: -1px 1px 2px black;
 }
 
 .main-container {
@@ -1001,6 +1044,36 @@ body .holla {
   height: 100%;
 }
 
+/*This is the start of the back to top button  */
+.topButton {
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  justify-content: end;
+  align-items: center;
+  margin: 30px;
+}
+
+.topButton a {
+  padding: 8px 15px;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.topButton a:hover {
+  background-color: darkmagenta;
+}
+
+.topButton a:active {
+  background-color: cornflowerblue;
+}
+
+/* This is the end of the back to top button */
 /* Comments
 --------------------------------------------- */
 .comment-content a {
