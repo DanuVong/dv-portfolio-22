@@ -192,7 +192,7 @@ overflow-x: hidden; // cuts off any content out of place of X-Axis
 
     .about-section-text {
         // text-shadow: 1px 1px 2px black;
-        line-height: 50px;
+        line-height: 1.45em;
         padding: 0 100px;
         color: white;
         font-size: 20px;
@@ -280,7 +280,7 @@ overflow-x: hidden; // cuts off any content out of place of X-Axis
 .topButton{
     display: flex;
     position: fixed;
-    right: 0;
+    right: 25px;
     bottom: 0;
     justify-content: end;
     align-items: center;
@@ -301,4 +301,128 @@ overflow-x: hidden; // cuts off any content out of place of X-Axis
 .topButton a:active{
     background-color: cornflowerblue;
 }
+
 /* This is the end of the back to top button */
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    .site-header .main-navigation {
+        margin-right: 10%;
+    }
+    .about-section-container {
+        flex-direction: column !important;
+        height: auto !important;
+        
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+    .about-page {
+        flex-direction: column;
+        .text-container {
+            width: 100%;
+        }
+        .personal-image-containter {
+            width: 100%;
+        }
+    }
+    .main-navigation {
+        justify-content: left !important;
+    }
+    .about-section-container {
+        flex-direction: column !important;
+        height: auto !important; 
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:700px) {
+    .about-page {
+        flex-direction: column;
+        .text-container {
+            width: 100%;
+        }
+        .personal-image-containter {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .main-navigation {
+        justify-content: left !important;
+    }
+    .about-section-container {
+        flex-direction: column !important;
+        height: auto !important; 
+        margin-top: 32px;
+    }
+    body .projects-container {
+        margin-right: 58px;
+        flex-direction: column;
+        margin: 0 auto;
+        height:auto;
+    }
+    .projects-page {
+        gap: 40px;  
+    }
+    .project-image {
+        width: 100% !important;
+        border-radius: 0 20px 20px 10px !important;
+        margin-top: 16px;
+    }
+    .wpcf7 {
+        width:73%;
+    }
+    body .contact-page .wpcf7-form input[type=text], body .contact-page .wpcf7-form input[type=email]  {
+        width: 100%;
+        height: 50px;
+    }
+    body .contact-page {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:400px){
+    .about-page {
+        flex-direction: column;
+        .text-container {
+            width: 100%;
+        }
+        .personal-image-containter {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .main-navigation {
+        justify-content: left !important;
+    }
+    .about-section-container {
+        flex-direction: column !important;
+        height: auto !important; 
+        margin-top: 32px;
+    }
+    body .projects-container {
+        margin-right: 58px;
+        flex-direction: column;
+        margin: 0 auto;
+        height:auto;
+    }
+    .projects-page {
+        gap: 40px;  
+    }
+    .project-image {
+        width: 100% !important;
+        border-radius: 0 20px 20px 10px !important;
+        margin-top: 16px;
+    }
+    .wpcf7 {
+        width:73%;
+    }
+    body .contact-page .wpcf7-form input[type=text], body .contact-page .wpcf7-form input[type=email]  {
+        width: 100%;
+        height: 50px;
+    }
+    body .contact-page {
+        height: auto;
+    }
+    body .about-section-container #coverVideo {
+        height: auto;
+    }
+}

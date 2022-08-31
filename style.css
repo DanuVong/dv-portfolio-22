@@ -61,6 +61,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
+  overflow-x: hidden;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -693,6 +694,17 @@ textarea {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+  position: relative;
+  right: 135px;
+}
+
+.burger-menu {
+  color: #000;
+  font-size: 30px;
+}
+
+.menu-toggle button {
+  display: none;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -728,9 +740,6 @@ textarea {
 
 .site-header {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: transparent;
   position: relative;
 }
@@ -796,6 +805,22 @@ footer {
   color: orange;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  footer {
+    margin-top: 110px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  footer {
+    height: 190px;
+    padding: 0 32px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .GM {
+    margin-top: 87px;
+  }
+}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -977,7 +1002,7 @@ body .about-section .about-me-header {
   color: aqua;
 }
 body .about-section .about-section-text {
-  line-height: 50px;
+  line-height: 1.45em;
   padding: 0 100px;
   color: white;
   font-size: 20px;
@@ -1048,7 +1073,7 @@ body .connect {
 .topButton {
   display: flex;
   position: fixed;
-  right: 0;
+  right: 25px;
   bottom: 0;
   justify-content: end;
   align-items: center;
@@ -1074,6 +1099,144 @@ body .connect {
 }
 
 /* This is the end of the back to top button */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .site-header .main-navigation {
+    margin-right: 10%;
+  }
+
+  .about-section-container {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .about-page {
+    flex-direction: column;
+  }
+  .about-page .text-container {
+    width: 100%;
+  }
+  .about-page .personal-image-containter {
+    width: 100%;
+  }
+
+  .main-navigation {
+    justify-content: left !important;
+  }
+
+  .about-section-container {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .about-page {
+    flex-direction: column;
+  }
+  .about-page .text-container {
+    width: 100%;
+  }
+  .about-page .personal-image-containter {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-navigation {
+    justify-content: left !important;
+  }
+
+  .about-section-container {
+    flex-direction: column !important;
+    height: auto !important;
+    margin-top: 32px;
+  }
+
+  body .projects-container {
+    margin-right: 58px;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .projects-page {
+    gap: 40px;
+  }
+
+  .project-image {
+    width: 100% !important;
+    border-radius: 0 20px 20px 10px !important;
+    margin-top: 16px;
+  }
+
+  .wpcf7 {
+    width: 73%;
+  }
+
+  body .contact-page .wpcf7-form input[type=text], body .contact-page .wpcf7-form input[type=email] {
+    width: 100%;
+    height: 50px;
+  }
+
+  body .contact-page {
+    height: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-page {
+    flex-direction: column;
+  }
+  .about-page .text-container {
+    width: 100%;
+  }
+  .about-page .personal-image-containter {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-navigation {
+    justify-content: left !important;
+  }
+
+  .about-section-container {
+    flex-direction: column !important;
+    height: auto !important;
+    margin-top: 32px;
+  }
+
+  body .projects-container {
+    margin-right: 58px;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .projects-page {
+    gap: 40px;
+  }
+
+  .project-image {
+    width: 100% !important;
+    border-radius: 0 20px 20px 10px !important;
+    margin-top: 16px;
+  }
+
+  .wpcf7 {
+    width: 73%;
+  }
+
+  body .contact-page .wpcf7-form input[type=text], body .contact-page .wpcf7-form input[type=email] {
+    width: 100%;
+    height: 50px;
+  }
+
+  body .contact-page {
+    height: auto;
+  }
+
+  body .about-section-container #coverVideo {
+    height: auto;
+  }
+}
 /* Comments
 --------------------------------------------- */
 .comment-content a {

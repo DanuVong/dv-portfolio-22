@@ -103,6 +103,15 @@
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	position: relative;
+    right: 135px;
+}
+.burger-menu {
+	color:#000;
+	font-size: 30px;
+}
+.menu-toggle button {
+	display: none;
 }
 
 @media screen and (min-width: 37.5em) {
