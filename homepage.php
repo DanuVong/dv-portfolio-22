@@ -64,7 +64,7 @@
 
      <div class="projects-container">
         <div class="project-text">   
-            <h2>Electried</h2>
+            <h2>Electrified</h2>
             <p>In this project our instructor introduced and taught us how to incorporate nesting in our CSS code. My topic for this project was transportation.</p>
             <a href="https://danuvong.github.io/electrified/" target="_blank"><button class="view-project-button" type="button">View Project</button></a>
         </div>
