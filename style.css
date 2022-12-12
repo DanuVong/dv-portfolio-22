@@ -931,6 +931,7 @@ body .projects-page {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 0 18% 0;
 }
 body .projects-container {
   height: 325px;
@@ -1025,6 +1026,7 @@ body .contact-page {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 12% 0;
 }
 body .contact-page .wpcf7-form {
   width: 100%;

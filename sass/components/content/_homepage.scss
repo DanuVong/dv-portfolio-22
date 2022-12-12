@@ -103,7 +103,7 @@ overflow-x: hidden; // cuts off any content out of place of X-Axis
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin: 0 0 18% 0;
 }
 
 .projects-container {
@@ -221,7 +221,7 @@ overflow-x: hidden; // cuts off any content out of place of X-Axis
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin: 12% 0;
 
     .wpcf7-form {
         width: 100%;
